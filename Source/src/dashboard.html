@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Cabinet - The Hogwarts Library</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="hp-title">My Hogwarts Cabinet</h1>
+    <button id="logoutBtn" class="btn-login">Logout</button>
+</header>
+
+<main class="dashboard">
+
+    
+    <section id="userSection">
+        <h2>📚 Currently Reading</h2>
+        <div id="readingList" class="book-list"></div>
+
+        <h2>⭐ Favorite Books</h2>
+        <div id="favoriteList" class="book-list"></div>
+    </section>
+
+    
+    <section id="adminSection" style="display:none;">
+        <h2>🛠 Admin Panel</h2>
+
+        <div class="admin-form">
+            <input type="text" id="bookTitle" placeholder="Book Title">
+            <input type="text" id="bookAuthor" placeholder="Author">
+            <input type="text" id="bookCategory" placeholder="Category">
+            <button id="addBookBtn">Add Book</button>
+        </div>
+
+        <h3>All Books</h3>
+        <div id="adminBookList" class="book-list"></div>
+    </section>
+
+</main>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>

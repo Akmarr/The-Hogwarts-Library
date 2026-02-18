@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wizard Registration</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/registration-style.css">
+</head>
+<body>
+
+
+<div class="container">
+<h2>Wizard Registration</h2>
+
+
+<form id="registerForm" novalidate>
+
+    <input type="text" id="firstName" placeholder="First Name">
+    <small class="error" id="firstNameError"></small>
+
+    <input type="text" id="lastName" placeholder="Last Name">
+    <small class="error" id="lastNameError"></small>
+
+    <input type="email" id="email" placeholder="Email">
+    <small class="error" id="emailError"></small>
+
+    <input type="password" id="password" placeholder="Password">
+    <small class="error" id="passwordError"></small>
+
+    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+    <small class="error" id="confirmPasswordError"></small>
+
+    <button type="submit" class="submit">Create Account</button>
+    
+    <p id="message"></p>
+</form>
+
+</div>
+
+
+<script src="js/registration.js"></script>
+</body>
+</html>

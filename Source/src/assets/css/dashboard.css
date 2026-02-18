@@ -1,0 +1,32 @@
+.dashboard {
+    padding: 40px;
+}
+
+.book-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.book-item {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: gold;
+    width: 200px;
+}
+
+.admin-form {
+    margin-bottom: 20px;
+}
+
+.admin-form input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.admin-form button {
+    padding: 8px 15px;
+    cursor: pointer;
+}

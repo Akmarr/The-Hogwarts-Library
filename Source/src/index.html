@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hogwarts Library</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+</head>
+<style>
+ body {
+   background-image: url("assets/img/Header.jpg");
+ }
+</style>
+
+<body>
+  
+    <header>
+    
+    <h1 class="hp-title">
+    The Hogwarts Library
+    </h1>
+
+               
+     <div class="registerlogin">
+            <a href="registration.html" class="btn-register">Register</a>
+            <a href="login.html" class="btn-login">Login</a>
+
+     </div>   
+        
+    </header>
+
+    <div class="controls">
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="Magic">Magic</button>
+            <button class="filter-btn" data-category="Fantasy">Fantasy</button>
+            <button class="filter-btn" data-category="Fantastic">Fantastic</button>
+        </div>
+        <button id="theme-toggle" class="theme-btn">🌙 Dark Mode</button>
+    </div>
+
+    <main class="library-grid" id="book-grid">
+        <article class="book-card" data-category="Magic">
+            <div class="book-cover">
+                <img src="assets/img/Book philosopher stone.jpg" alt="Book Cover">
+            </div>
+            <div class="book-info">
+                <h3>Harry Poter and the Philosophers Stone</h3>
+                <p class="author">J.K.Rowling</p>
+                <span class="tag">Magic, Fantasy</span>
+                <button class="btn-read">Read Now</button>
+            </div>
+        </article>
+
+        <article class="book-card" data-category="Magic">
+            <div class="book-cover">
+                <img src="assets/img/Harry Potter and prizoner of Azkaban.JPG" alt="Book Cover">
+            </div>
+            <div class="book-info">
+                <h3>Harry Potter and the Prizoner of Azkaban</h3>
+                <p class="author">J.K.Rowling</p>
+                <span class="tag">Magic, Fantasy</span>
+                <button class="btn-read">Read Now</button>
+            </div>
+        </article>
+
+        <article class="book-card" data-category="Magic">
+            <div class="book-cover">
+                <img src="assets/img/chamber-of-secrets.jpg" alt="Book Cover">
+            </div>
+            <div class="book-info">
+                <h3>Harry Potter and the Chamber of Secrets</h3>
+                <p class="author">J.K.Rowling</p>
+                <span class="tag">Megic, Fantasy</span>
+                <button class="btn-read">Read Now</button>
+            </div>
+        </article>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
